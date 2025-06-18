@@ -3,18 +3,24 @@ import { Link } from "react-router-dom"
 function Seniorme() {
   return (
     <>
-    <div  className="px-10 m-5 md:px-20 py-10">
+    <div  className="px-10 m-5 md:px-20 py-5">
 
 
         <div className="grid grid-cols-1 md:grid-cols-2 md:pt-20 md:h-screen gap-10">
           
 
 
-        <div className=" pt-5 m-5">
-        <div className="text-9xl inline-block transition-transform duration-500 hover:scale-125 hover:rotate-[360deg]">
-        🚀
-        </div>
-        </div>
+            <div className="py-10 flex justify-center ">
+
+            <div className="space-y-4 pb-10 px-5 perspective-[1000px]">
+            <img
+            src="/Seniorme.png"
+            alt="Map"
+            className=" transition-transform duration-1000 transform hover:rotate-y-45 "
+            />
+            </div>
+
+            </div>
 
 
 
@@ -37,6 +43,10 @@ function Seniorme() {
                 </Link>
               
             </div>
+
+
+
+            
           </div>
 
           

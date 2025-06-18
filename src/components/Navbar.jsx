@@ -7,7 +7,9 @@ function Navbar() {
 
       <div className='flex justify-between  '>
         <div className='flex justify-between'>
-          <Link to={'/'}><div className='p-7 text-2xl md:text-3xl transition-transform duration-200 hover:-rotate-45'>🛩️</div></Link>  
+          <Link to={'/'}><div className='p-7 text-2xl md:text-3xl transition-transform duration-200 hover:-rotate-45'>
+            <img src="https://images.emojiterra.com/microsoft/fluent-emoji/15.1/1024px/1f6e9_flat.png" alt="logo" className="h-10 md:w-10 w-15"/>
+            </div></Link>  
 
 
             <div className='p-5'>

@@ -1,6 +1,34 @@
 function Softslills() {
   return (
     <>
+
+<div className="py-15">
+
+    <div className="py-20 flex justify-center ">
+
+  <div className="space-y-4 pb-10 px-5 perspective-[1000px]">
+  <img
+    src="/softskills.png"
+    alt="Map"
+    className="transition-transform duration-1000 transform hover:rotate-y-45"
+  />
+</div>
+
+    </div>
+   </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    
    <div className="py-5">
 
 

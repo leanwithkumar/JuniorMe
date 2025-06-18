@@ -646,10 +646,10 @@ function Home() {
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-2 py-10">
                 <div>
-                    <img src='/myself.jpg' className="px-10  "/>
+                    <img src='/myimg1.png' className="px-10 pb-5  "/>
                 </div>
                 <div className="scroll-m-20 text-xl px-5 font-sbold tracking-tight">
-                    You might be thinking why you should choose JuniorMe?<br/><br/>
+                    You might be thinking why to should choose JuniorMe?<br/><br/>
                     Umm because JuniorMe will help you to get all your doughts clear within few steps.<br/><br/>
                     Actually I was bored and have nothing in my hand till the 6th semester.<br/><br/>3rd Year was about to over so I decided to make this website that can help me as well as you if you fall or jump in Electronics and Communication Engineering.
                     <br/><br/>
