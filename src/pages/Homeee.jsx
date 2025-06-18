@@ -654,7 +654,10 @@ function Home() {
                     Actually I was bored and have nothing in my hand till the 6th semester.<br/><br/>3rd Year was about to over so I decided to make this website that can help me as well as you if you fall or jump in Electronics and Communication Engineering.
                     <br/><br/>
 
-                    A special thanks to <a href="https://www.linkedin.com/in/apurb-mishra-30b41b258/" target="_blank" className="hover:underline"> Apurb Mishra</a> and  <a href="https://www.linkedin.com/in/harmandeep-singh-a65129319/" target="_blank" className="hover:underline">Harmandeep Singh </a>  for helping me to finish this project.
+                    A special thanks to my mentor <a href="https://www.linkedin.com/in/mohit-pandey-5b0756197/" target="_blank" className="hover:underline"> Mohit Pandey </a>, my batchmate <a href="https://www.linkedin.com/in/apurb-mishra-30b41b258/" target="_blank" className="hover:underline">Apurb Mishra</a> and my junior <a href="https://www.linkedin.com/in/harmandeep-singh-a65129319/" target="_blank" className="hover:underline">Harmandeep Singh </a>  for helping me to finish this project.
+
+
+                    
 
                 </div>
             </div>
