@@ -1,6 +1,5 @@
 import { Route, Routes } from "react-router-dom"
 import Navbar from "./components/Navbar"
-import Home from "./pages/home"
 import Footer from "./components/Footer"
 import Privacy from "./pages/Privacy"
 import Terms from "./pages/Terms"
@@ -35,8 +34,6 @@ import Vlsi from "./pages/Semestersfolder/Semester6/Vlsi"
 import Microwave from "./pages/Semestersfolder/Semester6/Microwave"
 import Iot from "./pages/Semestersfolder/Semester6/Iot"
 import Bsp from "./pages/Semestersfolder/Semester6/Bsp"
-import Semester8 from "./pages/Semestersfolder/Semester8/Semester8"
-import Semester7 from "./pages/Semestersfolder/Semester7/Semester7"
 import Seniorme from "./pages/Seniorme"
 import Softslills from "./pages/Softslills"
 import Placement from "./pages/Placement"
@@ -52,6 +49,7 @@ import Machinelearning from "./pages/Semestersfolder/Semester4/Machinelearning"
 import Semiconductor from "./pages/Semestersfolder/Semester4/Semiconductor"
 import Construction from "./pages/Construction"
 import ScrollToTop from "./components/ScrollToTop"
+import Home from "./pages/Homeee"
 
 function App() {
   return (
