@@ -7,7 +7,7 @@ function Semester6() {
 
         <div className="scroll-m-20 py-5 text-center text-3xl md:text-4xl font-bold tracking-tight">Semester 6</div>
 
-        <div className="scroll-m-20 py-5 text-xl md:text-2xl  tracking-tight">
+        <div className="scroll-m-20 py-5 text-xl md:text-2xl px-5 tracking-tight">
            
             <Link to={'/thirdyear/semester6/iot'}>
             <li className="text-3xl font-bold py-3 hover:underline transition duration-400 ease-in-out">
