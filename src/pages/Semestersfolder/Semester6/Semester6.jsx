@@ -8,7 +8,7 @@ function Semester6() {
         <div className="scroll-m-20 py-5 text-center text-3xl md:text-4xl font-bold tracking-tight">Semester 6</div>
 
         <div className="scroll-m-20 py-5 text-xl md:text-2xl  tracking-tight">
-            Download the Syllabus from the Link : xyz<br/><br/>
+           
             <Link to={'/thirdyear/semester6/iot'}>
             <li className="text-3xl font-bold py-3 hover:underline transition duration-400 ease-in-out">
                 Internet Of Things
@@ -42,6 +42,18 @@ function Semester6() {
             </li>
             
             </Link>
+            <li className="md:text-3xl text-xl font-bold py-3 hover:underline transition duration-400 ease-in-out">
+                <a
+                href="/3rdyearsyllabus.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="scroll-m-20 py-5 text-center text-2xl md:text-3xl font-bold tracking-tight"
+                >
+                Third Year Syllabus - Download
+                </a>
+                
+            </li>
+            
             
             
             

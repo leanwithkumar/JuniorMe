@@ -50,6 +50,12 @@ import Semiconductor from "./pages/Semestersfolder/Semester4/Semiconductor"
 import Construction from "./pages/Construction"
 import ScrollToTop from "./components/ScrollToTop"
 import Home from "./pages/Homeee"
+import Semester2 from "./pages/Semestersfolder/Semester2/Semester2"
+import Maths2 from "./pages/Semestersfolder/Semester2/Maths2"
+import Elementsofelectronics from "./pages/Semestersfolder/Semester2/Elementsofelectronics"
+import Edcg from "./pages/Semestersfolder/Semester2/Edcg"
+import Fundamentalofmeasurement from "./pages/Semestersfolder/Semester2/fundamentalofmeasurement"
+import Chemistry from "./pages/Semestersfolder/Semester2/Chemistry"
 
 function App() {
   return (
@@ -104,7 +110,13 @@ function App() {
 
 
 
-      <Route path="/firstyear/semester2" element={<Construction/>}/>
+      <Route path="/firstyear/semester2" element={<Semester2/>}/>
+      <Route path="/firstyear/semester2/maths2" element={<Maths2/>}/>
+      <Route path="/firstyear/semester2/elementsofelectronics" element={<Elementsofelectronics/>}/>
+      <Route path="/firstyear/semester2/egcd" element={<Edcg/>}/>
+      <Route path="/firstyear/semester2/fundamentalofmeasurementandsensors" element={<Fundamentalofmeasurement/>}/>
+      <Route path="/firstyear/semester2/chemistry" element={<Chemistry/>}/>
+
 
 
 
@@ -114,6 +126,7 @@ function App() {
       <Route path="/secondyear/semester3/deld" element={<Deld/>}/>
       <Route path="/secondyear/semester3/python" element={<Python/>}/>
       <Route path="/secondyear/semester3/probablityandstatistics" element={<Probablity/>}/>
+      
 
 
 

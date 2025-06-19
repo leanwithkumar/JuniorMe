@@ -8,7 +8,7 @@ function Semester4() {
         <div className="scroll-m-20 py-5 text-center text-3xl md:text-4xl font-bold tracking-tight">Semester 4</div>
 
         <div className="scroll-m-20 py-5 text-xl md:text-2xl  tracking-tight">
-            Download the Syllabus from the Link : xyz<br/><br/>
+            
             <Link to={'/secondyear/semester4/analogelectronics'}>
             <li className="text-3xl font-bold py-3 hover:underline transition duration-400 ease-in-out">
                 Analog Electronics
@@ -42,6 +42,17 @@ function Semester4() {
             </li>
             
             </Link>
+            <li className="md:text-3xl text-xl font-bold py-3 hover:underline transition duration-400 ease-in-out">
+                <a
+                href="/2ndyearsyllabus.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="scroll-m-20 py-5 text-center text-2xl md:text-3xl font-bold tracking-tight"
+                >
+                Second Year Syllabus - Download
+                </a>
+                
+            </li>
             
            
             

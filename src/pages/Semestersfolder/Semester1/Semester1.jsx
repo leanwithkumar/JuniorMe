@@ -8,7 +8,7 @@ function Semester1() {
         <div className="scroll-m-20 py-5 text-center text-3xl md:text-4xl font-bold tracking-tight">Semester 1</div>
 
         <div className="scroll-m-20 py-5 text-xl md:text-2xl px-5 tracking-tight">
-            Download the Syllabus from the Link : xyz<br/><br/>
+            
             <Link to={'/firstyear/semester1/bee'}>
             <li className="md:text-3xl text-xl font-bold py-3 hover:underline transition duration-400 ease-in-out">
                 Basic Electrical Engineering
@@ -35,6 +35,19 @@ function Semester1() {
             </li>
             
             </Link>
+
+
+            <li className="md:text-3xl text-xl font-bold py-3 hover:underline transition duration-400 ease-in-out">
+                <a
+                href="/1styearsyllabus.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="scroll-m-20 py-5 text-center text-2xl md:text-3xl font-bold tracking-tight"
+                >
+                First Year Syllabus - Download
+                </a>
+                
+            </li>
             
             
             
