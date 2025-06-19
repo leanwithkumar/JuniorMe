@@ -1,6 +1,8 @@
-function Fundamentalofmeasurement() {
+import React from 'react'
+
+function Fundamentalelectronicsengg() {
   return (
-     <>
+    <>
    <div className="py-5">
     <div className="py-20 flex justify-center ">
         <div>
@@ -39,4 +41,4 @@ function Fundamentalofmeasurement() {
   )
 }
 
-export default Fundamentalofmeasurement
+export default Fundamentalelectronicsengg

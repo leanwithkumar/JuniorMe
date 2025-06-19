@@ -45,7 +45,6 @@ import Probablity from "./pages/Semestersfolder/Semester3/Probablity"
 import Controlsystem from "./pages/Semestersfolder/Semester4/Controlsystem"
 import Analogelectronics from "./pages/Semestersfolder/Semester4/Analogelectronics"
 import Communicationtheory from "./pages/Semestersfolder/Semester4/Communicationtheory"
-import Machinelearning from "./pages/Semestersfolder/Semester4/Machinelearning"
 import Semiconductor from "./pages/Semestersfolder/Semester4/Semiconductor"
 import Construction from "./pages/Construction"
 import ScrollToTop from "./components/ScrollToTop"
@@ -54,8 +53,10 @@ import Semester2 from "./pages/Semestersfolder/Semester2/Semester2"
 import Maths2 from "./pages/Semestersfolder/Semester2/Maths2"
 import Elementsofelectronics from "./pages/Semestersfolder/Semester2/Elementsofelectronics"
 import Edcg from "./pages/Semestersfolder/Semester2/Edcg"
-import Fundamentalofmeasurement from "./pages/Semestersfolder/Semester2/fundamentalofmeasurement"
+
 import Chemistry from "./pages/Semestersfolder/Semester2/Chemistry"
+import Fundamentalelectronicsengg from "./pages/Semestersfolder/Semester2/Fundamentalelectronicsengg"
+
 
 function App() {
   return (
@@ -114,7 +115,7 @@ function App() {
       <Route path="/firstyear/semester2/maths2" element={<Maths2/>}/>
       <Route path="/firstyear/semester2/elementsofelectronics" element={<Elementsofelectronics/>}/>
       <Route path="/firstyear/semester2/egcd" element={<Edcg/>}/>
-      <Route path="/firstyear/semester2/fundamentalofmeasurementandsensors" element={<Fundamentalofmeasurement/>}/>
+      <Route path="/firstyear/semester2/fundamentalofmeasurementandsensors" element={<Fundamentalelectronicsengg/>}/>
       <Route path="/firstyear/semester2/chemistry" element={<Chemistry/>}/>
 
 
